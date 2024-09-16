@@ -1,0 +1,90 @@
+.header {
+	margin-bottom: 40px;
+}
+
+.header-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.title-chamomile {
+	font-family: var(--font-family-Vetrino);
+	font-size: 140px;
+}
+
+.menu__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	color: #e9e5c5;
+	font-family: var(--font-family-Arial);
+	font-size: 20px;
+
+	padding-top: 29px;
+	padding-bottom: 29px;
+
+	margin-bottom: 67px;
+}
+
+.menu-link:hover {
+	color: var(--colorText-accent);
+}
+.gif {
+	display: flex;
+	justify-content: center;
+}
+
+.header-gif {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.header-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-subtitle {
+	font-size: 30px;
+	line-height: 37px;
+	text-align: left;
+	text-transform: uppercase;
+
+	color: #e9e5c5;
+}
+
+.input-cookie {
+	padding: 12.5px 60px 12.5px 12px;
+	border-radius: 50px;
+}
+
+.header-content__time {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 64px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #e7cf00;
+}
+.input-cookie::placeholder {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: left;
+
+	color: #506c46;
+}
+
+.header-gif {
+	max-width: 708px;
+	height: 427px;
+}

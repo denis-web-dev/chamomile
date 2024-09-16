@@ -1,0 +1,240 @@
+.chamomile-title {
+	margin-bottom: 57px;
+}
+
+.header__title-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__title-item-1 {
+	position: relative;
+}
+
+.header__title-item-1::after {
+	content: '';
+	position: absolute;
+	background: url(../img/chamomile.png);
+	background-repeat: no-repeat;
+	width: 51px;
+	height: 51px;
+	top: 25px;
+	left: 100px;
+}
+
+.header__title-item-2 {
+	position: relative;
+}
+
+.header__title-item-2::after {
+	content: '';
+	position: absolute;
+	background: url(../img/chamomile.png);
+	background-repeat: no-repeat;
+	width: 51px;
+	height: 51px;
+	top: 25px;
+	left: 125px;
+}
+.header__title-item-3 {
+	position: relative;
+}
+
+.header__title-item-3::after {
+	content: '';
+	position: absolute;
+	background: url(../img/chamomile.png);
+	background-repeat: no-repeat;
+	width: 51px;
+	height: 51px;
+	top: 25px;
+	left: 130px;
+}
+.header__title-item-4 {
+	position: relative;
+}
+
+.header__title-item-4::after {
+	content: '';
+	position: absolute;
+	background: url(../img/chamomile.png);
+	background-repeat: no-repeat;
+	width: 51px;
+	height: 51px;
+	top: 25px;
+	left: 108px;
+}
+.header__title-item-5 {
+	position: relative;
+}
+
+.header__title-item-5::after {
+	content: '';
+	position: absolute;
+	background: url(../img/chamomile.png);
+	background-repeat: no-repeat;
+	width: 51px;
+	height: 51px;
+	top: 25px;
+	left: 145px;
+}
+.header__title-item-6 {
+	position: relative;
+}
+
+.header__title-item-6::after {
+	content: '';
+	position: absolute;
+	background: url(../img/chamomile.png);
+	background-repeat: no-repeat;
+	width: 51px;
+	height: 51px;
+	top: 25px;
+	left: 100px;
+}
+
+/* Анимация */
+.hero-title {
+	border-left: 1px solid var(--color-stroke-strong);
+	border-right: 1px solid var(--color-stroke-strong);
+}
+.hero-title::before {
+	content: '';
+	position: absolute;
+	width: var(--central-box-size);
+	height: 100%;
+	left: var(--central-box-position);
+	border-left: 1px solid #E7D000;
+	border-right: 1px solid var(--color-stroke-thin);
+}
+
+.header-title {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-height: var(--header-size-limit);
+	overflow: hidden;
+}
+.header-title::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: -100%;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	animation: opacitySlider 0.85s ease-out;
+	z-index: 1;
+}
+.title-chamomile {
+	font-size: var(--font-size-base);
+	opacity: 0;
+	animation: fadeIn 0.8s ease-out forwards var(--letter-delay, 0s);
+}
+.title-chamomile:nth-child(3) {
+	--letter-delay: 0.1s;
+}
+
+.title-chamomile:nth-child(5) {
+	--letter-delay: 0.2s;
+}
+
+.title-chamomile:nth-child(7) {
+	--letter-delay: 0.3s;
+}
+
+.title-chamomile:nth-child(9) {
+	--letter-delay: 0.4s;
+}
+
+.title-chamomile:nth-child(11) {
+	--letter-delay: 0.5s;
+}
+
+.title-chamomile:last-child {
+	--letter-delay: 0.6s;
+}
+.symbol {
+	font-size: calc(var(--font-size-base) / 2.5);
+	animation: flowerRotate 2s ease-out;
+	z-index: 1;
+}
+.media-container {
+	--content-limit: calc(100vh - var(--header-size-limit));
+	position: relative;
+	display: grid;
+	place-items: center;
+	min-height: var(--content-limit);
+}
+.arrow {
+	--height-round: calc(var(--content-limit) / 2);
+	--position-round: calc((var(--central-box-size) + var(--arrow-width) + var(--padding-page)) / 2);
+	position: absolute;
+	animation: movement 2s ease-out;
+}
+
+.left {
+	--move-x: calc(50dvw - var(--position-round));
+	--move-y: calc(var(--height-round) - (var(--arrow-height) / 2));
+	left: calc(0px - (var(--arrow-width) / 2));
+	top: 0;
+}
+
+.right {
+	--move-x: calc(var(--position-round) - 50dvw);
+	--move-y: calc((var(--arrow-height) / 2) - var(--height-round));
+	right: calc(0px - (var(--arrow-width) / 2));
+	bottom: 0;
+}
+
+.svg-arrow {
+	display: block;
+	max-width: var(--arrow-width);
+	height: var(--arrow-height);
+}
+
+.media-gif {
+	animation: fadeIn 3s ease-in-out;
+}
+
+.down {
+	transform: rotate(180deg);
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes opacitySlider {
+	from {
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes movement {
+	0% {
+		transform: translate(var(--move-x), var(--move-y));
+	}
+	40%,
+	60% {
+		transform: translate(0, var(--move-y));
+	}
+	100% {
+		transform: translate(0);
+	}
+}
+
+@keyframes flowerRotate {
+	0% {
+		transform: rotate(0);
+	}
+	40%,
+	60% {
+		transform: rotate(180deg);
+	}
+}

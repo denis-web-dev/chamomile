@@ -1,0 +1,63 @@
+:root {
+	/* основной цвет bg */
+	--colorBg-primary: #506c46;
+
+	/* контейнер */
+	--container-width: 1290px;
+	--container-padding: 15px;
+
+	/* шрифт текста */
+	--font-family-Vetrino: 'Vetrino', sans-serif;
+	--font-family-Arial: 'Arial', sans-serif;
+
+	/* цвет текста */
+	--colorText-main: #e9e5c5;
+	--colorText-accent: #e7d000;
+	--colorText-green: #506c46;
+
+	/* цвет текста ссылки */
+	--colorLink-hover: #e7d000;
+	--colorLink-default: #e9e5c5;
+
+	/* состояние кнопок */
+	--colorBtn-text-default: #506c46;
+	--colorBtn-text-hover: #c0ae04;
+
+	--colorBtnBg-default: #e7d000;
+	--colorBtnBg-hover: #c0ae04;
+	--colorBtnBg-active: #cfba00;
+	--colorBtnBg-disable: #8d9689;
+
+	--colorArrow-default: #506c46;
+	--colorArrowBg-default: #e9e5c5;
+
+	/* состояние контролов */
+	--colorControls-disable: #8d9689;
+	--colorControls-default: #e9e5c5;
+	--colorControls-hover: #e7d000;
+	--colorControlsBg-active: #e9e5c5;
+	--colorControlsText-active: #e7d000;
+
+	/* состояние карточек */
+	--colorCart-default: #e9e5c5;
+	--colorCart-hover: #e7d000;
+	--colorCart-active: #e9e5c5;
+
+	/* состояние inputs */
+	--colorInput-default: #e9e5c5;
+	--colorInput-hover: #e7d000;
+	--colorInput-active: #e9e5c5;
+
+	/* animation */
+
+	--padding-page: min(5vw, 32px);
+	--header-size-limit: 40vh;
+	--central-box-size: calc(var(--media-size) / 2);
+	--central-box-position: calc(50% - (var(--central-box-size) / 2));
+	--font-size-base: clamp(2rem, 0rem + 10vw, 12rem);
+	--media-size: 450px;
+	--arrow-width: min(5vw, 70px);
+	--arrow-height: calc(var(--arrow-width) / 0.1);
+	--color-stroke-strong: rgba(232, 209, 0, 0.3);
+	--color-stroke-thin: rgba(232, 209, 0, 0.3);
+}

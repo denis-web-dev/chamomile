@@ -1,0 +1,127 @@
+.festival {
+	position: relative;
+	margin-top: 110px;
+}
+
+.festival-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.festival::before {
+	position: absolute;
+	content: '';
+	background-image: url(../img/chamomile-festival.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 80px;
+	left: 76px;
+	width: 89px;
+	height: 87px;
+}
+
+.festival::after {
+	position: absolute;
+	content: '';
+	background-image: url(../img/yellow-chamomile.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 435px;
+	left: 76px;
+	width: 61px;
+	height: 59px;
+}
+
+.festival-title {
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+
+	color: #e7cf00;
+
+	padding-bottom: 20px;
+}
+.festival-description {
+	position: relative;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #e9e5c5;
+	padding-bottom: 40px;
+
+	max-width: 581px;
+}
+.festival-description-2::before {
+	position: absolute;
+	content: '';
+	background-image: url(../img/chamomile-festival.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 80px;
+	left: 740px;
+	width: 89px;
+	height: 87px;
+}
+.festival-description-1::before {
+	position: absolute;
+	content: '';
+	background-image: url(../img/yellow-chamomile.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 130px;
+	left: 820px;
+	width: 61px;
+	height: 59px;
+}
+.festival-link {
+	position: relative;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 300px;
+	border-radius: 50px;
+	padding: 17px 76.5px 15px 76.5px;
+	background: #e7d000;
+
+	color: #506c46;
+	overflow: hidden;
+}
+
+/* Ссылка Участвую */
+.festival-link,
+.festival-link__effect {
+	transition: all 0.2s linear 0s;
+
+	&:before {
+		content: '';
+		background-image: url(../img/arrow-r.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		right: 31px;
+		top: 20px;
+		opacity: 0;
+		width: 36px;
+		height: 34px;
+		transition: all 0.2s linear 0s;
+	}
+	&:hover {
+		text-indent: -60px;
+		background: none;
+		border: 2px solid #c0ae04;
+		color: #c0ae04;
+
+		&:before {
+			opacity: 1;
+			text-indent: 0px;
+		}
+	}
+}
