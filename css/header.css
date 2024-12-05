@@ -6,7 +6,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 .title-chamomile {
@@ -21,12 +21,12 @@
 
 	color: #e9e5c5;
 	font-family: var(--font-family-Arial);
-	font-size: 20px;
+	font-size: 16px;
 
 	padding-top: 29px;
 	padding-bottom: 29px;
 
-	margin-bottom: 67px;
+	margin-bottom: 20px;
 }
 
 .menu-link:hover {
@@ -59,8 +59,25 @@
 }
 
 .input-cookie {
+	position: relative;
 	padding: 12.5px 60px 12.5px 12px;
 	border-radius: 50px;
+}
+.header-cookie {
+	position: relative;
+}
+.header-cookie::before {
+	position: absolute;
+	content: '';
+	background-image: url(../img/exit.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	color: #e7cf00;
+	top: 11px;
+	right: 20px;
+	z-index: 5;
 }
 
 .header-content__time {
@@ -85,6 +102,6 @@
 }
 
 .header-gif {
-	max-width: 708px;
+	max-width: 650px;
 	height: 427px;
 }
