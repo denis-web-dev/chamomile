@@ -23,16 +23,6 @@
 	left: 30px;
 }
 
-.habitation__title {
-	font-family: var(--font-family-Arial);
-	font-size: 20px;
-	line-height: 24px;
-	text-align: left;
-
-	margin-bottom: 20px;
-
-	color: #e7cf00;
-}
 .habitation__subtitle {
 	font-size: 60px;
 	line-height: 64px;

@@ -33,15 +33,6 @@
 	height: 59px;
 }
 
-.festival-title {
-	font-size: 20px;
-	line-height: 24px;
-	text-align: center;
-
-	color: #e7cf00;
-
-	padding-bottom: 20px;
-}
 .festival-description {
 	position: relative;
 	font-weight: 400;
