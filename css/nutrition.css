@@ -26,11 +26,6 @@
 }
 
 .nutrition__subtitle {
-	font-weight: 400;
-	font-size: 60px;
-	line-height: 64px;
-	text-align: left;
-	text-transform: uppercase;
 	max-width: 647px;
 
 	color: #506c46;

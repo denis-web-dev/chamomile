@@ -98,3 +98,10 @@ section:last-child {
 
 	color: #e7cf00;
 }
+.subtitles {
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 64px;
+	text-align: left;
+	text-transform: uppercase;
+}
