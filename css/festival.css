@@ -206,112 +206,174 @@
 			transition: all 0.2s linear 0s;
 		}
 	}
-
-	@media (max-width: 480px) {
-		.festival-title {
-			font-size: 18px;
-		}
-		.festival::after {
-			position: absolute;
-			content: '';
-			background-image: url(../img/yellow-chamomile.svg);
-			background-repeat: no-repeat;
-			background-size: contain;
-			top: 23px;
-			left: 127px;
-			width: 35px;
-			height: 35px;
-		}
-		.festival::before {
-			position: absolute;
-			content: '';
-			background-image: url(../img/chamomile-festival.svg);
-			background-repeat: no-repeat;
-			background-size: contain;
-			top: 302px;
-			left: 144px;
-			width: 35px;
-			height: 35px;
-		}
-
-		.festival-description-2::before {
-			position: absolute;
-			content: '';
-			background-image: url(../img/chamomile-festival.svg);
-			background-repeat: no-repeat;
-			background-size: contain;
-			bottom: 17px;
-			left: 259px;
-			width: 35px;
-			height: 35px;
-		}
-		.festival-description-1::before {
-			display: none;
-		}
-		.festival-description {
-			font-size: 20px;
-			line-height: 30px;
-			max-width: 420px;
-		}
+}
+@media (max-width: 480px) {
+	.festival-title {
+		font-size: 18px;
 	}
-	@media (max-width: 320px) {
-		.festival-title {
-			font-size: 17px;
-			line-height: 18px;
-		}
-		.festival::after {
-			position: absolute;
-			content: '';
-			background-image: url(../img/yellow-chamomile.svg);
-			background-repeat: no-repeat;
-			background-size: contain;
-			top: 23px;
-			left: 60px;
-			width: 35px;
-			height: 35px;
-		}
-		.festival::before {
-			position: absolute;
-			content: '';
-			background-image: url(../img/chamomile-festival.svg);
-			background-repeat: no-repeat;
-			background-size: contain;
-			top: 214px;
-			left: 25px;
-			width: 45px;
-			height: 45px;
-		}
+	.festival::after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/yellow-chamomile.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 23px;
+		left: 127px;
+		width: 35px;
+		height: 35px;
+	}
+	.festival::before {
+		position: absolute;
+		content: '';
+		background-image: url(../img/chamomile-festival.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 302px;
+		left: 144px;
+		width: 35px;
+		height: 35px;
+	}
 
-		.festival-description-2::before {
-			position: absolute;
-			content: '';
-			background-image: url(../img/chamomile-festival.svg);
-			background-repeat: no-repeat;
-			background-size: contain;
-			bottom: 147px;
-			left: 234px;
-			width: 45px;
-			height: 45px;
-		}
-		.festival-description-1::before {
-			display: block;
-			position: absolute;
-			content: '';
-			background-image: url(../img/yellow-chamomile.svg);
-			background-repeat: no-repeat;
-			background-size: contain;
-			top: 307px;
-			left: 214px;
-			width: 35px;
-			height: 35px;
-		}
-		.festival-description {
-			font-size: 20px;
-			line-height: 29px;
-			width: 280px;
-			height: 145px;
-			margin-bottom: 20px;
-		}
+	.festival-description-2::before {
+		position: absolute;
+		content: '';
+		background-image: url(../img/chamomile-festival.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		bottom: 17px;
+		left: 259px;
+		width: 35px;
+		height: 35px;
+	}
+	.festival-description-1::before {
+		display: none;
+	}
+	.festival-description {
+		font-size: 20px;
+		line-height: 30px;
+		max-width: 420px;
+	}
+}
+@media (max-width: 375px) {
+	.festival-title {
+		font-size: 17px;
+		line-height: 18px;
+	}
+	.festival::after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/yellow-chamomile.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 23px;
+		left: 60px;
+		width: 35px;
+		height: 35px;
+	}
+	.festival::before {
+		position: absolute;
+		content: '';
+		background-image: url(../img/chamomile-festival.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 214px;
+		left: 25px;
+		width: 45px;
+		height: 45px;
+	}
+
+	.festival-description-2::before {
+		position: absolute;
+		content: '';
+		background-image: url(../img/chamomile-festival.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		bottom: 147px;
+		left: 234px;
+		width: 45px;
+		height: 45px;
+	}
+	.festival-description-1::before {
+		display: block;
+		position: absolute;
+		content: '';
+		background-image: url(../img/yellow-chamomile.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 307px;
+		left: 214px;
+		width: 35px;
+		height: 35px;
+	}
+	.festival-description {
+		font-size: 20px;
+		line-height: 29px;
+		width: 280px;
+		height: 145px;
+		margin-bottom: 20px;
+	}
+	.festival-link {
+		font-size: 18px;
+		margin-top: 23px;
+	}
+}
+@media (max-width: 320px) {
+	.festival-title {
+		font-size: 17px;
+		line-height: 18px;
+	}
+	.festival::after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/yellow-chamomile.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 23px;
+		left: 60px;
+		width: 35px;
+		height: 35px;
+	}
+	.festival::before {
+		position: absolute;
+		content: '';
+		background-image: url(../img/chamomile-festival.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 214px;
+		left: 25px;
+		width: 45px;
+		height: 45px;
+	}
+
+	.festival-description-2::before {
+		position: absolute;
+		content: '';
+		background-image: url(../img/chamomile-festival.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		bottom: 147px;
+		left: 234px;
+		width: 45px;
+		height: 45px;
+	}
+	.festival-description-1::before {
+		display: block;
+		position: absolute;
+		content: '';
+		background-image: url(../img/yellow-chamomile.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 307px;
+		left: 214px;
+		width: 35px;
+		height: 35px;
+	}
+	.festival-description {
+		font-size: 20px;
+		line-height: 29px;
+		width: 280px;
+		height: 145px;
+		margin-bottom: 20px;
 	}
 	.festival-link {
 		font-size: 18px;
