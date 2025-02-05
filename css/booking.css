@@ -1,0 +1,193 @@
+.header {
+	margin: 60px 0;
+}
+
+.header__top {
+	display: flex;
+	justify-content: space-between;
+}
+.booking-arrow__link,
+.booking-close__link {
+	max-height: 40px;
+}
+.header__content {
+	display: flex;
+	justify-content: space-between;
+}
+.block-r {
+	overflow-y: auto;
+	max-height: 553px;
+}
+.info-img {
+	position: absolute;
+}
+.header__content--info {
+	position: relative;
+	padding: 40px 40px;
+}
+
+.booking__title {
+	font-family: var(--font-family-Vetrino);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 64px;
+	text-align: left;
+	text-transform: uppercase;
+
+	color: #e9e5c5;
+	margin-bottom: 60px;
+}
+.info-address {
+	margin-bottom: 30px;
+}
+.info-data {
+	margin-bottom: 176px;
+}
+.info-title {
+	font-family: var(--font-family-Arial);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: left;
+
+	color: #e7cf00;
+
+	margin-bottom: 15px;
+}
+.info-text {
+	font-family: var(--font-family-Vetrino);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: left;
+	text-transform: uppercase;
+
+	color: #e9e5c5;
+
+	max-width: 433px;
+}
+.info-categories__list {
+	font-family: var(--font-family-Arial);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: left;
+
+	color: #e9e5c5;
+
+	list-style-type: disc;
+}
+.info-categories__item {
+	margin-left: 30px;
+}
+
+.choice__title {
+	font-family: var(--font-family-Arial);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: left;
+
+	color: #e7cf00;
+
+	margin-bottom: 15px;
+}
+.card-house {
+	display: flex;
+	width: 493px;
+	height: 220px;
+	padding: 20px 20px;
+
+	border: 2px solid #e9e5c5;
+
+	margin-bottom: 12px;
+}
+.card-house__img {
+	margin-right: 15px;
+}
+.card-house__name {
+	font-family: var(--font-family-Vetrino);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: left;
+	text-transform: uppercase;
+
+	color: #e9e5c5;
+
+	margin-bottom: 66px;
+}
+.card-house__price {
+	font-family: var(--font-family-Vetrino);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: left;
+	text-transform: uppercase;
+
+	color: #e7cf00;
+
+	margin-bottom: 10px;
+}
+.card-house__choice {
+	display: flex;
+	align-items: center;
+}
+.card-house__text {
+	font-family: var(--font-family-Arial);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: left;
+
+	color: #e9e5c5;
+	margin-right: 16px;
+}
+.card-house__number {
+	font-family: var(--font-family-Arial);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: left;
+
+	color: #e9e5c5;
+	margin: 0 8px;
+}
+.card-house__info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.card-3 {
+}
+.choice__btn {
+	position: absolute;
+	width: 512px;
+	height: 56px;
+	padding: 17px 43px;
+	bottom: 120px;
+
+	background: #e7cf00;
+
+	border-radius: 100px;
+
+	font-family: var(--font-family-Vetrino);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #506c46;
+}
