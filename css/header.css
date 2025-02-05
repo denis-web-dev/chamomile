@@ -292,7 +292,7 @@
 		font-size: 10px;
 	}
 }
-@media (min-width: 375px) {
+@media (max-width: 375px) {
 	.icon {
 		display: block;
 		top: 13px;
