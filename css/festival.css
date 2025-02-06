@@ -346,6 +346,57 @@
 		max-width: 420px;
 	}
 }
+@media (max-width: 420px) {
+	.festival-title {
+		font-size: 18px;
+	}
+	.festival::after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/yellow-chamomile.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 23px;
+		left: 105px;
+		width: 35px;
+		height: 35px;
+	}
+	.festival::before {
+		position: absolute;
+		content: '';
+		background-image: url(../img/chamomile-festival.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 336px;
+		left: 115px;
+		width: 35px;
+		height: 35px;
+	}
+
+	.festival-description-2::before {
+		position: absolute;
+		content: '';
+		background-image: url(../img/chamomile-festival.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		bottom: 13px;
+		left: 232px;
+		width: 35px;
+		height: 35px;
+	}
+	.festival-description-2 {
+		margin-bottom: 20px;
+	}
+	.festival-description-1::before {
+		display: none;
+	}
+	.festival-description {
+		font-size: 20px;
+		line-height: 30px;
+		max-width: 420px;
+		padding-bottom: 20px;
+	}
+}
 
 @media (max-width: 387px) {
 	.festival-title {
