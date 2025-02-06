@@ -292,11 +292,14 @@
 		font-size: 10px;
 	}
 }
-@media (max-width: 643px) {
+@media (max-width: 387px) {
+	:root {
+		--header-size-limit: 50vh;
+	}
 	.icon {
 		display: block;
 		top: 13px;
-		right: 100px;
+		right: 114px;
 	}
 
 	.menu {
