@@ -118,6 +118,98 @@
 	}
 }
 
+/* Адаптив */
+
+@media (max-width: 1024px) {
+	section:first-child {
+		padding: 30px;
+	}
+	.festival {
+		margin-top: 0px;
+	}
+	.festival::after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/yellow-chamomile.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 21px;
+		left: 260px;
+		width: 40px;
+		height: 40px;
+	}
+	.festival::before {
+		position: absolute;
+		content: '';
+		background-image: url(../img/chamomile-festival.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 396px;
+		left: 201px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.festival-description-2::before {
+		position: absolute;
+		content: '';
+		background-image: url(../img/chamomile-festival.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		bottom: 20px;
+		left: 387px;
+		width: 50px;
+		height: 50px;
+	}
+	.festival-description-1::before {
+		display: none;
+	}
+	.festival-description {
+		position: relative;
+		font-weight: 400;
+		font-size: 29px;
+		line-height: 39px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #e9e5c5;
+
+		max-width: 500px;
+	}
+	.festival-link {
+		position: relative;
+		font-size: 20px;
+		line-height: 27px;
+		text-align: center;
+		text-transform: uppercase;
+		width: 280px;
+		border-radius: 50px;
+		/* padding: 17px 76.5px 15px 76.5px; */
+		padding: 9px 87px;
+		background: #e7d000;
+		color: #506c46;
+		overflow: hidden;
+	}
+	.festival-link,
+	.festival-link__effect {
+		&:before {
+			content: '';
+			background-image: url(../img/arrow-r.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			position: absolute;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			right: 30px;
+			top: 13px;
+			opacity: 0;
+			width: 27px;
+			height: 30px;
+			transition: all 0.2s linear 0s;
+		}
+	}
+}
+
 @media (max-width: 768px) {
 	section:first-child {
 		padding: 30px;
@@ -142,8 +234,8 @@
 		background-image: url(../img/chamomile-festival.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
-		top: 237px;
-		left: 183px;
+		top: 396px;
+		left: 201px;
 		width: 50px;
 		height: 50px;
 	}
@@ -154,8 +246,8 @@
 		background-image: url(../img/chamomile-festival.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
-		bottom: 136px;
-		left: 408px;
+		bottom: 20px;
+		left: 387px;
 		width: 50px;
 		height: 50px;
 	}
