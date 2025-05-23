@@ -1,0 +1,59 @@
+.habitation {
+	padding-top: 90px;
+	background-color: #506c46;
+	padding-bottom: 90px;
+}
+.habitation__content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.habitation__code-img {
+	position: absolute;
+	right: 0;
+	top: 35%;
+}
+.habitation__block-1 {
+	padding-right: 40px;
+}
+
+.habitation__svg-bg {
+	position: absolute;
+	left: 30px;
+}
+
+.habitation__subtitle {
+	margin-bottom: 70px;
+	max-width: 647px;
+	color: #e9e5c5;
+}
+
+.habitation__block-2 {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.habitation__svg-ml {
+	position: absolute;
+	top: 80px;
+	right: 477px;
+}
+
+.habitation__text {
+	font-family: var(--font-family-Arial);
+	font-size: 18px;
+	line-height: 21px;
+	text-align: justify;
+	max-width: 408px;
+	padding: 0 19px;
+
+	color: #e7cf00;
+}
+
+.habitation__img-2 {
+	max-width: 300px;
+	max-height: 300px;
+}

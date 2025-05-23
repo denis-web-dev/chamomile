@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+  <link rel="preload" href="fonts/Vetrino.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/ArialMT.woff2" as="font" type="font/woff2" crossorigin>
+  <title>Купить билет</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <a class="booking-arrow__link" href="#">
+          <svg class="booking-arrow" width="40" height="40" viewBox="0 0 40 40" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 32L10 20M10 20L22 8M10 20H30" stroke="#8D9689" stroke-width="3.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </a>
+
+        <h2 class="booking__title">купить билет</h2>
+
+        <a class="booking-close__link" href="#">
+          <svg class="booking-close" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 2L22 22M2 22L22 2" stroke="#E7D000" stroke-width="3" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </a>
+
+      </div>
+      <header class="header__content">
+        <img class="info-img" src="./img/booking/bg_3.png" alt="рамка информационного табло">
+        <div class="header__content--info">
+          <div class="info-address">
+            <h4 class="info-address__title info-title">Место</h4>
+            <p class="info-address__text info-text">Пермский край,
+              село Белое, на берегу реки Вишеры</p>
+          </div>
+          <div class="info-data">
+            <h4 class="info-data__title info-title">Дата</h4>
+            <p class="info-data__text info-text">21.08 - 22.08 / 10:00</p>
+          </div>
+          <div class="info-categories">
+            <h4 class="info-data__title info-title">Информация</h4>
+            <ul class="info-categories__list">
+              В стоимость за дом входит:
+              <li class="info-categories__item">
+                проживание
+              </li>
+              <li class="info-categories__item">
+                3-х разовое питание
+              </li>
+              <li class="info-categories__item">
+                мастер-классы
+              </li>
+              <li class="info-categories__item">
+                купание в купели и лесная баня
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="header__content--choice">
+          <div class="choice__title">Выбор дома</div>
+          <div class="block-r">
+            <div class="card-house">
+              <img class="card-house__img" src="./img/booking/card-house/house-2.jpg" alt="двухэтажный дом">
+              <div class="card-house__info">
+                <p class="card-house__name">2-х местный</p>
+                <p class="card-house__price">12 500 ₽</p>
+                <div class="card-house__choice">
+                  <p class="card-house__text">Количество домов</p>
+                  <a class="card-house__link--img" href="#">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.6">
+                        <rect x="0.75" y="0.75" width="28.5" height="28.5" rx="14.25" stroke="#8D9689"
+                          stroke-width="1.5" />
+                        <g clip-path="url(#clip0_261_1285)">
+                          <path d="M27 16.2008H16.2537H13.7463H3V13.8008H13.7463L16.2537 13.8009L27 13.8008V16.2008Z"
+                            fill="#8D9689" />
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_261_1285">
+                          <rect width="16" height="16" fill="white" transform="translate(7 7)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <p class="card-house__number">1</p>
+                  <a class="card-house__link--img" href="#">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.75" y="0.75" width="28.5" height="28.5" rx="14.25" stroke="#E9E5C5"
+                        stroke-width="1.5" />
+                      <g clip-path="url(#clip0_261_1290)">
+                        <path d="M23 15.4571H15.8358V23H14.1642V15.4571H7V13.8571H14.1642V7H15.8358V13.8571H23V15.4571Z"
+                          fill="#E9E5C5" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_261_1290">
+                          <rect width="16" height="16" fill="white" transform="translate(7 7)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card-house">
+              <img class="card-house__img" src="./img/booking/card-house/house-3.jpg" alt="трехэтажный дом">
+              <div class="card-house__info">
+                <p class="card-house__name">3-х местный</p>
+                <p class="card-house__price">18 500 ₽</p>
+                <div class="card-house__choice">
+                  <p class="card-house__text">Количество домов</p>
+                  <a class="card-house__link--img" href="#">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.6">
+                        <rect x="0.75" y="0.75" width="28.5" height="28.5" rx="14.25" stroke="#8D9689"
+                          stroke-width="1.5" />
+                        <g clip-path="url(#clip0_261_1285)">
+                          <path d="M27 16.2008H16.2537H13.7463H3V13.8008H13.7463L16.2537 13.8009L27 13.8008V16.2008Z"
+                            fill="#8D9689" />
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_261_1285">
+                          <rect width="16" height="16" fill="white" transform="translate(7 7)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <p class="card-house__number">1</p>
+                  <a class="card-house__link--img" href="#">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.75" y="0.75" width="28.5" height="28.5" rx="14.25" stroke="#E9E5C5"
+                        stroke-width="1.5" />
+                      <g clip-path="url(#clip0_261_1290)">
+                        <path d="M23 15.4571H15.8358V23H14.1642V15.4571H7V13.8571H14.1642V7H15.8358V13.8571H23V15.4571Z"
+                          fill="#E9E5C5" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_261_1290">
+                          <rect width="16" height="16" fill="white" transform="translate(7 7)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card-house card-3">
+              <img class="card-house__img" src="./img/booking/card-house/house-2.jpg" alt="четырехэтажный дом">
+              <div class="card-house__info">
+                <p class="card-house__name">4-х местный</p>
+                <p class="card-house__price">22 500 ₽</p>
+                <div class="card-house__choice">
+                  <p class="card-house__text">Количество домов</p>
+                  <a class="card-house__link--img" href="#">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.6">
+                        <rect x="0.75" y="0.75" width="28.5" height="28.5" rx="14.25" stroke="#8D9689"
+                          stroke-width="1.5" />
+                        <g clip-path="url(#clip0_261_1285)">
+                          <path d="M27 16.2008H16.2537H13.7463H3V13.8008H13.7463L16.2537 13.8009L27 13.8008V16.2008Z"
+                            fill="#8D9689" />
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_261_1285">
+                          <rect width="16" height="16" fill="white" transform="translate(7 7)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <p class="card-house__number">1</p>
+                  <a class="card-house__link--img" href="#">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.75" y="0.75" width="28.5" height="28.5" rx="14.25" stroke="#E9E5C5"
+                        stroke-width="1.5" />
+                      <g clip-path="url(#clip0_261_1290)">
+                        <path d="M23 15.4571H15.8358V23H14.1642V15.4571H7V13.8571H14.1642V7H15.8358V13.8571H23V15.4571Z"
+                          fill="#E9E5C5" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_261_1290">
+                          <rect width="16" height="16" fill="white" transform="translate(7 7)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <button class="choice__btn">далее</button>
+          </div>
+        </div>
+      </header>
+    </div>
+  </header>
+</body>
+
+</html>
