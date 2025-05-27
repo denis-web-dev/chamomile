@@ -326,6 +326,13 @@
 		.header {
 			margin: 0;
 		}
+		.media-container {
+			--content-limit: calc(80vh - var(--header-size-limit));
+			position: relative;
+			display: grid;
+			place-items: center;
+			min-height: var(--content-limit);
+		}
 	}
 
 	.icon {
