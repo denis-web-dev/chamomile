@@ -67,6 +67,11 @@ figure,
 fieldset {
 	margin: 0;
 }
+:root {
+	.header {
+		margin: 0;
+	}
+}
 
 .container {
 	max-width: 1290px;
