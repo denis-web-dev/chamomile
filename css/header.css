@@ -324,10 +324,10 @@
 @media (max-width: 420px) {
 	:root {
 		.header {
-			margin: 0;
+			margin-bottom: 50px;
 		}
 		.media-container {
-			--content-limit: calc(80vh - var(--header-size-limit));
+			--content-limit: calc(60vh - var(--header-size-limit));
 			position: relative;
 			display: grid;
 			place-items: center;
@@ -348,8 +348,8 @@
 		height: 20px;
 	}
 	.media-gif {
-		max-width: 386px;
-	}
+		max-width: 225px;
+}
 
 	.header-cookie {
 		display: none;
@@ -361,9 +361,10 @@
 		align-items: center;
 	}
 	.header-subtitle {
+		display: contents;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 17px;
+		font-size: 18px;
 		line-height: 29px;
 		text-align: center;
 		text-transform: uppercase;
@@ -384,7 +385,7 @@
 	}
 
 	.header-content__time {
-		font-size: 30px;
+		font-size: 26px;
 		line-height: 34px;
 		margin-left: 17px;
 	}
@@ -393,11 +394,12 @@
 	}
 	.cookie-banner {
 		padding: 9px 20px;
-		margin-bottom: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
 		gap: 16px;
 	}
 }
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
 	.icon {
 		display: block;
 		top: 13px;
@@ -460,7 +462,7 @@
 
 		color: #e9e5c5;
 	}
-}
+} */
 @media (max-width: 320px) {
 	.icon {
 		display: block;
