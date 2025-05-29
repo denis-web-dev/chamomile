@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Vetrino';
-	src: local('Vetrino Regular'), local('Vetrino-Regular'), url(/fonts/Vetrino.woff) format(woff);
+	src: url('/fonts/Vetrino.woff2') format('woff2'), url('/fonts/Vetrino.woff') format('woff');
 	font-weight: 400;
 }
 @font-face {
