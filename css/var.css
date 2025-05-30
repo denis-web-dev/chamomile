@@ -48,6 +48,7 @@
 	--colorInput-hover: #e7d000;
 	--colorInput-active: #e9e5c5;
 
+
 	/* animation title*/
 
 	--padding-page: min(5vw, 32px);
@@ -56,8 +57,8 @@
 	--central-box-position: calc(50% - (var(--central-box-size) / 2));
 	--font-size-base: clamp(2rem, 0rem + 10vw, 12rem);
 	--media-size: 450px;
-	--arrow-width: min(2vw, 20px);
+	--arrow-width: min(2vw, 13px);
 	--arrow-height: calc(var(--arrow-width) / 0.1);
-	--color-stroke-strong: rgba(232, 209, 0, 0.3);
-	--color-stroke-thin: rgba(232, 209, 0, 0.3);
+	--color-stroke-strong: rgba(232, 209, 0, 0.1);
+	--color-stroke-thin: rgba(232, 209, 0, 0.1);
 }

@@ -1,7 +1,11 @@
 const icons = document.querySelectorAll('.icon');
+const mobileBlock =document.querySelector('.mobile-block');
+
+
 icons.forEach(icon => {
   icon.addEventListener('click', (event) => {
     icon.classList.toggle("open");
+    mobileBlock.classList.toggle("active")
   });
 });
 
