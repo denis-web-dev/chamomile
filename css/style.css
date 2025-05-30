@@ -20,7 +20,7 @@ body {
 	overflow-x: hidden;
 	min-width: 320px;
 	min-height: 100vh;
-	font-family: var(--font-family-Vetrino);
+	font-family: 'Vetrino';
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
