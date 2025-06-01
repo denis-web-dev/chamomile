@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Vetrino';
-	src: url('/fonts/Vetrino.woff') format('woff'), url('/fonts/Vetrino.woff2') format('woff2');
+	src: url('./fonts/Vetrino.woff') format('woff'), url('./fonts/Vetrino.woff2') format('woff2');
 	font-weight: 400;
 }
 @font-face {
 	font-family: 'ArialMT';
-	src: local('ArialMT Regular'), local('ArialMT-Regular'), url(/fonts/ArialMT.woff2) format('woff2');
+	src: local('ArialMT Regular'), local('ArialMT-Regular'), url(./fonts/ArialMT.woff2) format('woff2');
 	font-weight: 400;
 }
