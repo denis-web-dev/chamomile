@@ -1,7 +1,6 @@
 .header {
-	margin-bottom: 40px;
+	padding-bottom: 50px;
 }
-
 /* Иконка бургер меню */
 .icon.nav-icon-1 {
 	position: absolute;
@@ -132,6 +131,9 @@
 	justify-content: center;
 }
 
+.media-gif {
+	animation: fadeIn 3s ease-in-out;
+}
 
 .header-content {
 	display: flex;
@@ -178,7 +180,6 @@
 	gap: 10px;
 
 	max-width: 90%;
-
 }
 
 .cookie-text {
@@ -219,7 +220,6 @@
 .close-btn::after {
 	transform: translate(-50%, -50%) rotate(-45deg);
 }
-
 
 .menu__list--mobile {
 	display: flex;
@@ -283,12 +283,6 @@
 }
 
 @media (max-width: 480px) {
-	:root {
-		.header {
-			margin: 0;
-		}
-	}
-
 	.icon {
 		display: none;
 	}
@@ -298,7 +292,13 @@
 	.media-gif {
 		max-width: 370px;
 	}
-
+	.media-container {
+		--content-limit: calc(70vh 630px - var(--header-size-limit));
+		position: relative;
+		display: grid;
+		place-items: center;
+		min-height: var(--content-limit);
+	}
 	.header-subtitle {
 		font-size: 16px;
 		line-height: 25px;
@@ -367,7 +367,7 @@
 		display: block;
 		font-size: 17px;
 	}
-	.menu__list--mobile{
+	.menu__list--mobile {
 		gap: 10px;
 		margin-bottom: 60px;
 	}
@@ -389,7 +389,7 @@
 		flex-direction: column;
 		align-items: center;
 	}
-	.header-title{
+	.header-title {
 		margin-bottom: 0;
 	}
 	.header-subtitle {
@@ -427,7 +427,6 @@
 	.cookie-banner {
 		display: none;
 	}
-
 }
 
 @media (max-width: 320px) {
@@ -452,14 +451,17 @@
 		display: block;
 		font-size: 17px;
 	}
-	.menu__list--mobile{
+	.menu__list--mobile {
 		gap: 10px;
 		margin-bottom: 60px;
 	}
+
 	.media-gif {
 		width: 225px;
-		height: 170px;
+		height: 150px;
+		margin: 0;
 	}
+
 	.header-cookie {
 		display: none;
 	}
@@ -468,6 +470,7 @@
 		margin-top: 30px;
 		flex-direction: column;
 		align-items: center;
+		text-align: center;
 	}
 	.header-subtitle {
 		font-style: normal;
@@ -493,5 +496,4 @@
 	.cookie-banner {
 		display: none;
 	}
-
 }

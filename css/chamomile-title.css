@@ -1,7 +1,3 @@
-.chamomile-title {
-	margin-bottom: 57px;
-}
-
 .header__title-list {
 	display: flex;
 	align-items: center;
@@ -102,7 +98,8 @@
 	content: '';
 	position: absolute;
 	width: var(--central-box-size);
-	height: 100%;
+	z-index: 9999;
+	min-height: 100%;
 	left: var(--central-box-position);
 	border-left: 1px solid var(--color-stroke-strong);
 	border-right: 1px solid var(--color-stroke-thin);
@@ -161,7 +158,7 @@
 	z-index: 1;
 }
 .media-container {
-	--content-limit: calc(100vh - var(--header-size-limit));
+	--content-limit: calc(90vh - var(--header-size-limit));
 	position: relative;
 	display: grid;
 	place-items: center;
@@ -192,10 +189,6 @@
 	display: block;
 	max-width: var(--arrow-width);
 	height: var(--arrow-height);
-}
-
-.media-gif {
-	animation: fadeIn 3s ease-in-out;
 }
 
 .down {
