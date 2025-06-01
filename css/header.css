@@ -132,11 +132,6 @@
 	justify-content: center;
 }
 
-.header-gif {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 50px;
-}
 
 .header-content {
 	display: flex;
@@ -183,6 +178,7 @@
 	gap: 10px;
 
 	max-width: 90%;
+
 }
 
 .cookie-text {
@@ -223,6 +219,7 @@
 .close-btn::after {
 	transform: translate(-50%, -50%) rotate(-45deg);
 }
+
 
 .menu__list--mobile {
 	display: flex;
@@ -428,10 +425,7 @@
 		font-size: 12px;
 	}
 	.cookie-banner {
-		padding: 9px 20px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		gap: 16px;
+		display: none;
 	}
 
 }
@@ -495,6 +489,9 @@
 		text-transform: uppercase;
 
 		color: #e9e5c5;
+	}
+	.cookie-banner {
+		display: none;
 	}
 
 }
