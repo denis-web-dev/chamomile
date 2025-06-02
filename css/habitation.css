@@ -57,3 +57,72 @@
 	max-width: 300px;
 	max-height: 300px;
 }
+
+/* Адаптив */
+
+@media (max-width: 768px) {
+	.habitation {
+		padding-top: 90px;
+		padding-bottom: 60px;
+	}
+	.habitation__img-2 {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		max-width: 150px;
+		max-height: 150px;
+	}
+	.habitation__subtitle {
+		margin-bottom: 25px;
+		max-width: 450px;
+		color: #e9e5c5;
+	}
+	.subtitles {
+		font-weight: 400;
+		font-size: 27px;
+		line-height: 36px;
+		text-align: left;
+		text-transform: uppercase;
+	}
+	.habitation__content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+	}
+	.habitation__block-1 {
+		padding-right: 288px;
+	}
+	.habitation__svg-bg {
+		position: absolute;
+		left: 261px;
+		max-width: 62px;
+	}
+	.habitation__img-1 {
+		max-width: 320px;
+	}
+	.habitation__text {
+		font-family: var(--font-family-Arial);
+		font-size: 16px;
+		line-height: 19px;
+		max-width: 280px;
+		margin-right: 138px;
+		padding: 0 19px;
+		color: #e7cf00;
+	}
+	.habitation__svg-ml {
+		position: absolute;
+		top: -60px;
+		right: 70px;
+		max-width: 47px;
+	}
+	.habitation__code-img {
+		position: absolute;
+		right: 0;
+		top: 10%;
+	}
+}
+@media (max-width: 420px) {
+}
+@media (max-width: 320px) {
+}

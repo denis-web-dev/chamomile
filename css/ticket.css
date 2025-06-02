@@ -422,23 +422,23 @@ sup {
 	.ticket__cheque-img--quarkod {
 		display: block;
 		rotate: 90deg;
-		max-width: 50px;
+		max-width: 47px;
 		margin: 0 0 32px 0;
 		padding: 0;
 	}
 	.ticket__chamomile {
 		position: absolute;
-		top: 254px;
+		top: 251px;
 		margin-right: 160px;
 		z-index: 5;
-		max-width: 27px;
+		max-width: 20px;
 	}
 	.ticket__chamomile-2 {
 		position: absolute;
-		bottom: 51px;
-		right: 54px;
+		bottom: 52px;
+		right: 55px;
 		z-index: 5;
-		max-width: 27px;
+		max-width: 20px;
 	}
 	.festival-link {
 		position: relative;
