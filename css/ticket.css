@@ -138,6 +138,9 @@ sup {
 	right: 227px;
 	z-index: 5;
 }
+.ticket__cheque-img--320 {
+	display: none;
+}
 /* adaptiv */
 @media (max-width: 768px) {
 	.ticket__title {
@@ -194,6 +197,9 @@ sup {
 		line-height: 24px;
 		padding-left: 10px;
 	}
+	.ticket__cheque-img--320 {
+		display: none;
+	}
 }
 @media (max-width: 420px) {
 	.ticket__title {
@@ -228,7 +234,7 @@ sup {
 		align-items: center;
 		flex-direction: column;
 	}
-	.ticket__cheque-2{
+	.ticket__cheque-2 {
 		flex-direction: column;
 	}
 	.ticket__cheque-l--text {
@@ -238,89 +244,89 @@ sup {
 		right: 404px;
 		z-index: 1;
 	}
-	.ticket__cheque-l--title{
-    position: absolute;
-    font-family: var(--font-family-Arial);
-    font-size: 12px;
-    margin-top: 109px;
-    margin-left: 308px;
-    color: #e9e5c5;
-}
-.ticket__cheque-l--subtitle {
-	position: absolute;
-	font-size: 12px;
-	line-height: 15px;
-	text-transform: uppercase;
-	margin-top: 130px;
-	width: 173px;
-	margin-left: 308px;
-	color: #e9e5c5;
-}
-.ticket__cheque-l--cost {
-	margin-top: 160px;
-	font-size: 12px;
-	margin-left: 308px;
-}
-.ticket__cheque-l--price {
-	position: absolute;
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
-	margin-top: 180px;
-	margin-left: 308px;
-	width: 160px;
-}
-.ticket__cheque-l--data {
-	position: absolute;
-	font-size: 32px;
-	line-height: 18px;
-	text-align: left;
-	text-transform: uppercase;
-	width: max-content;
-	margin-top: 210px;
-	margin-left: 308px;
-	color: #e9e5c5;
-}
-sup {
-	font-size: 9px;
-	line-height: 17px;
-	padding-left: 4px;
-}
-.ticket__cheque-img--quarkod{
-	display: block;
-	rotate: 90deg;
-	max-width: 50px;
-	margin: 0 0 32px 0;
-	padding: 0;
-}
-.ticket__chamomile {
-	position: absolute;
-	top: 254px;
-	margin-right: 160px;
-	z-index: 5;
-	max-width: 27px;
-}
-.ticket__chamomile-2 {
-	position: absolute;
-	bottom: 51px;
-	right: 54px;
-	z-index: 5;
-	max-width: 27px;
-}
-.festival-link {
-	position: relative;
-	font-size: 17px;
-	line-height: 27px;
-	text-align: center;
-	text-transform: uppercase;
-	width: 230px;
-	border-radius: 50px;
-	/* padding: 17px 76.5px 15px 76.5px; */
-	padding: 9px 58px;
-	background: #e7d000;
-	color: #506c46;
-	overflow: hidden;
-}
+	.ticket__cheque-l--title {
+		position: absolute;
+		font-family: var(--font-family-Arial);
+		font-size: 12px;
+		margin-top: 109px;
+		margin-left: 308px;
+		color: #e9e5c5;
+	}
+	.ticket__cheque-l--subtitle {
+		position: absolute;
+		font-size: 12px;
+		line-height: 15px;
+		text-transform: uppercase;
+		margin-top: 130px;
+		width: 173px;
+		margin-left: 308px;
+		color: #e9e5c5;
+	}
+	.ticket__cheque-l--cost {
+		margin-top: 160px;
+		font-size: 12px;
+		margin-left: 308px;
+	}
+	.ticket__cheque-l--price {
+		position: absolute;
+		font-size: 14px;
+		line-height: 18px;
+		text-transform: uppercase;
+		margin-top: 180px;
+		margin-left: 308px;
+		width: 160px;
+	}
+	.ticket__cheque-l--data {
+		position: absolute;
+		font-size: 32px;
+		line-height: 18px;
+		text-align: left;
+		text-transform: uppercase;
+		width: max-content;
+		margin-top: 210px;
+		margin-left: 308px;
+		color: #e9e5c5;
+	}
+	sup {
+		font-size: 9px;
+		line-height: 17px;
+		padding-left: 4px;
+	}
+	.ticket__cheque-img--quarkod {
+		display: block;
+		rotate: 90deg;
+		max-width: 50px;
+		margin: 0 0 32px 0;
+		padding: 0;
+	}
+	.ticket__chamomile {
+		position: absolute;
+		top: 254px;
+		margin-right: 160px;
+		z-index: 5;
+		max-width: 27px;
+	}
+	.ticket__chamomile-2 {
+		position: absolute;
+		bottom: 51px;
+		right: 54px;
+		z-index: 5;
+		max-width: 27px;
+	}
+	.festival-link {
+		position: relative;
+		font-size: 17px;
+		line-height: 27px;
+		text-align: center;
+		text-transform: uppercase;
+		width: 230px;
+		border-radius: 50px;
+		/* padding: 17px 76.5px 15px 76.5px; */
+		padding: 9px 58px;
+		background: #e7d000;
+		color: #506c46;
+		overflow: hidden;
+	}
 }
 @media (max-width: 320px) {
 	.ticket__title {
@@ -337,7 +343,7 @@ sup {
 	}
 	.ticket__cheque-bg {
 		rotate: 90deg;
-		max-height: 33vh;
+		max-height: 32vh;
 	}
 	.ticket__cheque-img {
 		display: none;
@@ -346,7 +352,7 @@ sup {
 		position: absolute;
 		display: block;
 		top: -36px;
-		left: 39px;
+		left: 35px;
 		width: 260px;
 	}
 	.ticket__cheque-l {
@@ -355,97 +361,99 @@ sup {
 		align-items: center;
 		flex-direction: column;
 	}
-	.ticket__cheque-2{
+	.ticket__cheque-2 {
 		flex-direction: column;
 	}
 	.ticket__cheque-l--text {
 		position: absolute;
-		width: 134px;
+		width: 130px;
 		top: 0;
 		right: 404px;
 		z-index: 1;
 	}
-	.ticket__cheque-l--title{
-    position: absolute;
-    font-family: var(--font-family-Arial);
-    font-size: 12px;
-    margin-top: 109px;
-    margin-left: 308px;
-    color: #e9e5c5;
-}
-.ticket__cheque-l--subtitle {
-	position: absolute;
-	font-size: 12px;
-	line-height: 15px;
-	text-transform: uppercase;
-	margin-top: 130px;
-	width: 173px;
-	margin-left: 308px;
-	color: #e9e5c5;
-}
-.ticket__cheque-l--cost {
-	margin-top: 160px;
-	font-size: 12px;
-	margin-left: 308px;
-}
-.ticket__cheque-l--price {
-	position: absolute;
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
-	margin-top: 180px;
-	margin-left: 308px;
-	width: 160px;
-}
-.ticket__cheque-l--data {
-	position: absolute;
-	font-size: 32px;
-	line-height: 18px;
-	text-align: left;
-	text-transform: uppercase;
-	width: max-content;
-	margin-top: 210px;
-	margin-left: 308px;
-	color: #e9e5c5;
-}
-sup {
-	font-size: 9px;
-	line-height: 17px;
-	padding-left: 4px;
-}
-.ticket__cheque-img--quarkod{
-	display: block;
-	rotate: 90deg;
-	max-width: 50px;
-	margin: 0 0 32px 0;
-	padding: 0;
-}
-.ticket__chamomile {
-	position: absolute;
-	top: 254px;
-	margin-right: 160px;
-	z-index: 5;
-	max-width: 27px;
-}
-.ticket__chamomile-2 {
-	position: absolute;
-	bottom: 51px;
-	right: 54px;
-	z-index: 5;
-	max-width: 27px;
-}
-.festival-link {
-	position: relative;
-	font-size: 17px;
-	line-height: 27px;
-	text-align: center;
-	text-transform: uppercase;
-	width: 230px;
-	border-radius: 50px;
-	/* padding: 17px 76.5px 15px 76.5px; */
-	padding: 9px 58px;
-	background: #e7d000;
-	color: #506c46;
-	overflow: hidden;
-}
+	.ticket__cheque-l--title {
+		position: absolute;
+		font-family: var(--font-family-Arial);
+		font-size: 12px;
+		margin-top: 109px;
+		margin-left: 308px;
+		color: #e9e5c5;
+	}
+	.ticket__cheque-l--subtitle {
+		position: absolute;
+		font-size: 12px;
+		line-height: 15px;
+		text-transform: uppercase;
+		margin-top: 130px;
+		width: 173px;
+		margin-left: 308px;
+		color: #e9e5c5;
+	}
+	.ticket__cheque-l--cost {
+		margin-top: 160px;
+		font-size: 12px;
+		margin-left: 308px;
+	}
+	.ticket__cheque-l--price {
+		position: absolute;
+		font-size: 14px;
+		line-height: 18px;
+		text-transform: uppercase;
+		margin-top: 180px;
+		margin-left: 308px;
+		width: 160px;
+	}
+	.ticket__cheque-l--data {
+		position: absolute;
+		font-size: 32px;
+		line-height: 18px;
+		text-align: left;
+		text-transform: uppercase;
+		width: max-content;
+		margin-top: 210px;
+		margin-left: 308px;
+		color: #e9e5c5;
+	}
+	sup {
+		font-size: 9px;
+		line-height: 17px;
+		padding-left: 4px;
+	}
+	.ticket__cheque-img--quarkod {
+		display: block;
+		rotate: 90deg;
+		max-width: 50px;
+		margin: 0 0 32px 0;
+		padding: 0;
+	}
+	.ticket__chamomile {
+		position: absolute;
+		top: 254px;
+		margin-right: 160px;
+		z-index: 5;
+		max-width: 27px;
+	}
+	.ticket__chamomile-2 {
+		position: absolute;
+		bottom: 51px;
+		right: 54px;
+		z-index: 5;
+		max-width: 27px;
+	}
+	.festival-link {
+		position: relative;
+		top: -20px;
+		font-size: 14px;
+		line-height: 27px;
+		text-align: center;
+		text-transform: uppercase;
+		width: 196px;
+		border-radius: 50px;
+
+		padding: 7px 58px;
+		background: #e7d000;
+		color: #506c46;
+		overflow: hidden;
+		margin: 0;
+	}
 }
