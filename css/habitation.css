@@ -123,6 +123,141 @@
 	}
 }
 @media (max-width: 420px) {
+	.habitation {
+		padding-top: 50px;
+		padding-bottom: 60px;
+	}
+	.habitation__content {
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+	.habitation__svg-bg {
+		position: absolute;
+		left: 342px;
+		max-width: 40px;
+	}
+	.habitation__block-1 {
+		padding-right: 0px;
+		max-width: 390px;
+	}
+	.titles {
+		font-family: var(--font-family-Arial);
+		font-size: 18px;
+		line-height: 21px;
+		margin-bottom: 20px;
+	}
+	.subtitles {
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 46px;
+		text-align: left;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	.habitation__block-2 {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.habitation__code-img {
+		position: absolute;
+		right: 0;
+		top: 73vh;
+	}
+	.habitation__svg-ml {
+		position: absolute;
+		top: 219px;
+		display: flex;
+		right: 138px;
+		max-width: 40px;
+	}
+
+	.habitation__img-1 {
+		max-width: 250px;
+	}
+	.habitation__img-2 {
+		position: initial;
+		right: 80px;
+		bottom: -218px;
+		max-width: 200px;
+		max-height: 200px;
+	}
+	.habitation__text {
+		font-size: 16px;
+		max-width: 321px;
+		margin-right: 0px;
+		margin-bottom: 20px;
+		padding: 77px 0 0 0;
+	}
 }
 @media (max-width: 320px) {
+	.habitation {
+		padding-top: 50px;
+		padding-bottom: 0px;
+	}
+	.habitation__content {
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+	.habitation__svg-bg {
+		position: absolute;
+		left: 220px;
+		max-width: 30px;
+	}
+	.habitation__block-1 {
+		padding-right: 0px;
+		max-width: 290px;
+	}
+	.titles {
+		font-family: var(--font-family-Arial);
+		font-size: 16px;
+		line-height: 19px;
+		margin-bottom: 20px;
+	}
+	.subtitles {
+		font-size: 29px;
+		line-height: 32px;
+	}
+	.habitation__block-2 {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.habitation__code-img {
+		position: absolute;
+		right: 19px;
+		top: 39vh;
+		max-width: 30px;
+
+	}
+	.habitation__svg-ml {
+		position: absolute;
+		top: 219px;
+		display: flex;
+		right: 106px;
+		max-width: 35px;
+	}
+
+	.habitation__img-1 {
+		max-width: 250px;
+	}
+	.habitation__img-2 {
+		position: initial;
+		right: 80px;
+		bottom: -218px;
+		max-width: 200px;
+		max-height: 200px;
+	}
+	.habitation__text {
+		font-size: 14px;
+		line-height: 17px;
+		max-width: 237px;
+		margin-right: 0px;
+		margin-bottom: 20px;
+		padding: 70px 0 0 0;
+	}
 }
