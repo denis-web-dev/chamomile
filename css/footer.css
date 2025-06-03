@@ -69,12 +69,48 @@
 	margin-bottom: 60px;
 }
 /* Адаптив */
-@media (max-width: 780px){
+@media (max-width: 768px) {
+	.footer-menu__list {
+		font-size: 16px;
+		line-height: 22px;
+		margin-bottom: 40px;
+	}
+	.footer__contact {
+		font-size: 70px;
+		line-height: 78px;
+	}
+	.footer__bottom--title {
+		font-size: 13px;
+		margin-bottom: 37px;
+	}
+	.footer__petals {
+		max-width: 600px;
+	}
+	.footer__bottom--petals::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/social/icon_tg.svg);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 74px;
+    left: 434px;
+}
+.footer__bottom--petals::after {
+	position: absolute;
+	content: '';
+	background-image: url(../img/social/icon_vk.svg);
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	bottom: 48px;
+	left: 132px;
+}
 
 }
-@media (max-width: 420px){
-
+@media (max-width: 420px) {
 }
-@media (max-width: 320px){
-
+@media (max-width: 320px) {
 }
