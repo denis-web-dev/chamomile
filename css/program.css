@@ -1,5 +1,6 @@
 .program {
 	background-color: #e7d000;
+	padding: 90px 0;
 }
 .program__block-1 {
 	position: relative;
@@ -83,12 +84,50 @@
 	border-bottom: 1px solid #506c46;
 }
 /* Адаптив */
-@media (max-width: 780px){
-
+@media (max-width: 768px) {
+	.program {
+		background-color: #e7d000;
+		padding: 60px 0;
+	}
+	.program__block-1 {
+		position: relative;
+		padding-bottom: 30px;
+	}
+	.program__subtitle {
+		color: #506c46;
+		max-width: 510px;
+	}
+	.program__chamomile {
+		top: -80px;
+	}
+	.program__block-2 {
+		display: flex;
+		padding-bottom: 40px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.program__block-3 {
+		gap: 20px;
+	}
+	.program-img {
+		width: 136px;
+		height: 180px;
+		margin: 0px;
+	}
+	.program__block-left {
+		font-size: 16px;
+		max-width: 360px;
+	}
+	.program__block-right {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.program__block-rights {
+    padding-right: 75px;
+	}
 }
-@media (max-width: 420px){
-
+@media (max-width: 420px) {
 }
-@media (max-width: 320px){
-
+@media (max-width: 320px) {
 }
