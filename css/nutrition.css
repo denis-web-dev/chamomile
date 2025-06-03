@@ -117,4 +117,34 @@
 	}
 }
 @media (max-width: 320px) {
+	.nutrition {
+		padding-top: 40px;
+		background-color: #e9e5c5;
+		padding-bottom: 40px;
+	}
+	.nutrition__img-twig {
+		left: 232px;
+		top: 49px;
+		width: 72px;
+	}
+	.nutrition__content {
+		position: relative;
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.nutrition__subtitle {
+		font-size: 24px;
+	}
+	.nutrition__img-2 {
+		padding: 20px 0;
+		width: 224px;
+	}
+	.nutrition__block-2 {
+		margin-bottom: 20px;
+	}
+	.nutrition__text {
+		font-size: 14px;
+		max-width: 290px;
+	}
 }
