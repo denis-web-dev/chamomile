@@ -124,10 +124,43 @@
 		line-height: 24px;
 	}
 	.program__block-rights {
-    padding-right: 75px;
+		padding-right: 75px;
 	}
 }
 @media (max-width: 420px) {
+	.program {
+		padding: 40px 0;
+	}
+	.program__subtitle {
+		font-size: 21px;
+		line-height: 26px;
+
+		max-width: 370px;
+	}
+	.program__chamomile {
+		top: -22px;
+		width: 135px;
+	}
+	.program__block-1 {
+		padding-bottom: 20px;
+	}
+	.program__block-2 {
+		padding: 0 0 40px 0;
+		width: 390px;
+	}
+	.program-img {
+		max-width: 117px;
+		height: 142px;
+		margin: 0px;
+	}
+	.program__img-4 {
+		padding: 0;
+	}
+	.program__block-3 {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
 }
 @media (max-width: 320px) {
 }
