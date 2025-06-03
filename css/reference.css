@@ -187,11 +187,17 @@
 		max-width: 210px;
 		margin-bottom: 0;
 	}
+	.rference__chamomile {
+		clip-path: none;
+	}
 	.reference__chamomile-img {
 		position: absolute;
-		bottom: 0;
+		bottom: 140px;
 		right: 23px;
 		max-width: 138px;
+	}
+	.reference__chamomile-img{
+		clip-path: inset(52% 0 0 0);
 	}
 	.reference__questions-1::after {
 		top: 17px;
