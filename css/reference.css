@@ -118,51 +118,78 @@
 		border-bottom: 1px solid #e9e5c5;
 	}
 	.questions__title {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 15px;
-    max-width: 380px;
-}
-.reference__questions-1::after {
-	position: absolute;
-	content: '';
-	background-image: url(../img/minus.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 30px;
-	height: 30px;
-	top: 42px;
-	right: 0px;
-}
-.reference__questions-2::after {
-	position: absolute;
-	content: '';
-	background-image: url(../img/plus.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 30px;
-	height: 30px;
-	top: 40px;
-	right: 0;
-}
-.reference__questions-3::after {
-	position: absolute;
-	content: '';
-	background-image: url(../img/plus.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 30px;
-	height: 30px;
-	top: 26px;
-	right: 0;
-}
-.questions__text {
-	font-size: 14px;
-	line-height: 16px;
-}
-.rference__chamomile {
-	padding-left: 60px;
-}
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 15px;
+		max-width: 380px;
+	}
+	.reference__questions-1::after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/minus.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 30px;
+		height: 30px;
+		top: 42px;
+		right: 0px;
+	}
+	.reference__questions-2::after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/plus.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 30px;
+		height: 30px;
+		top: 40px;
+		right: 0;
+	}
+	.reference__questions-3::after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/plus.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 30px;
+		height: 30px;
+		top: 26px;
+		right: 0;
+	}
+	.questions__text {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.rference__chamomile {
+		padding-left: 60px;
+	}
 }
 @media (max-width: 320px) {
+	.titles {
+		font-size: 14px;
+	}
+	.reference__content {
+		display: block;
+	}
+	.reference__title {
+		font-size: 18px;
+		line-height: 22px;
+		max-width: 210px;
+		margin-bottom: 0;
+	}
+	.reference__chamomile-img {
+		position: absolute;
+		bottom: 0;
+		right: 23px;
+		max-width: 138px;
+	}
+	.reference__questions-1::after {
+		top: 17px;
+}
+	.reference__questions-2::after {
+		top: 37px;
+}
+	.reference__questions-3::after {
+		top: 17px;
+}
 }
