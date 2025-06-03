@@ -149,7 +149,7 @@
 		width: 390px;
 	}
 	.program-img {
-		max-width: 117px;
+		width: 117px;
 		height: 142px;
 		margin: 0px;
 	}
@@ -163,4 +163,37 @@
 	}
 }
 @media (max-width: 320px) {
+	.program__chamomile {
+		top: -15px;
+		width: 69px;
+	}
+	.program__block-2 {
+		padding: 0 0 40px 0;
+		width: 290px;
+	}
+	.program-img {
+		display: none;
+	}
+	.program__img-1 {
+		display: block;
+		width: 250px;
+		height: 325px;
+	}
+	.program__img-2 {
+		display: block;
+		position: absolute;
+		width: 250px;
+		top: 153px;
+		height: 325px;
+	}
+	.program__block-left {
+		font-size: 16px;
+	}
+	.program__block-lefts {
+		margin-bottom: 10px;
+	}
+	.program__block-right {
+		font-size: 18px;
+		line-height: 21px;
+	}
 }
