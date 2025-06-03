@@ -102,6 +102,9 @@
 	.reference {
 		padding: 40px 0;
 	}
+	.reference__content {
+		display: block;
+	}
 	.reference__title {
 		font-size: 28px;
 		line-height: 33px;
@@ -121,7 +124,7 @@
 		font-size: 18px;
 		line-height: 24px;
 		margin-bottom: 15px;
-		max-width: 380px;
+		max-width: 340px;
 	}
 	.reference__questions-1::after {
 		position: absolute;
@@ -131,7 +134,7 @@
 		background-size: cover;
 		width: 30px;
 		height: 30px;
-		top: 42px;
+		top: 17px;
 		right: 0px;
 	}
 	.reference__questions-2::after {
@@ -142,7 +145,7 @@
 		background-size: cover;
 		width: 30px;
 		height: 30px;
-		top: 40px;
+		top: 17px;
 		right: 0;
 	}
 	.reference__questions-3::after {
@@ -153,7 +156,7 @@
 		background-size: cover;
 		width: 30px;
 		height: 30px;
-		top: 26px;
+		top: 17px;
 		right: 0;
 	}
 	.questions__text {
@@ -161,7 +164,14 @@
 		line-height: 16px;
 	}
 	.rference__chamomile {
-		padding-left: 60px;
+			position: fixed;
+			right: 20px;
+			padding-left: 0;
+			bottom: 35px;
+			max-width: 216px;
+	}
+	.rference__chamomile{
+		clip-path: inset(52% 0 0 0);
 	}
 }
 @media (max-width: 320px) {
@@ -185,11 +195,11 @@
 	}
 	.reference__questions-1::after {
 		top: 17px;
-}
+	}
 	.reference__questions-2::after {
 		top: 37px;
-}
+	}
 	.reference__questions-3::after {
 		top: 17px;
-}
+	}
 }
