@@ -16,6 +16,12 @@
 
 	margin-bottom: 70px;
 }
+.footer-menu__link {
+	transition: color ease-in-out 0.2s;
+}
+.footer-menu__link:hover {
+	color: #e7d000;
+}
 .footer__contact {
 	font-family: var(--font-family-Vetrino);
 	font-style: normal;
@@ -68,7 +74,15 @@
 	color: #e9e5c5;
 	margin-bottom: 60px;
 }
+.footer__petals--320 {
+	display: none;
+}
 /* Адаптив */
+@media (min-width: 1920px) {
+	.footer__bottom {
+		margin-top: 210px;
+	}
+}
 @media (max-width: 768px) {
 	.footer-menu__list {
 		font-size: 16px;
@@ -149,4 +163,42 @@
 	}
 }
 @media (max-width: 320px) {
+	.footer__contact {
+		font-size: 29px;
+		line-height: 32px;
+		margin-bottom: 25px;
+	}
+	.footer-menu__list {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		font-size: 17px;
+		line-height: 18px;
+		gap: 15px;
+		margin-bottom: 70px;
+	}
+	.footer__bottom--title {
+		font-size: 17px;
+		line-height: 18px;
+		margin: 0;
+	}
+	.footer__petals--320 {
+		display: block;
+		width: 290px;
+	}
+	.footer__bottom {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.footer__bottom--petals::before {
+		bottom: 83px;
+		left: 188px;
+		rotate: 25deg;
+}
+.footer__bottom--petals::after {
+	bottom: 46px;
+	left: 9px;
+	rotate: -45deg;
+}
 }
