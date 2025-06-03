@@ -146,7 +146,7 @@
 	}
 	.program__block-2 {
 		padding: 0 0 40px 0;
-		width: 390px;
+		width: 360px;
 	}
 	.program-img {
 		width: 117px;
@@ -161,6 +161,11 @@
 		justify-content: space-between;
 		flex-direction: column;
 	}
+	.program__block-right {
+		font-size: 20px;
+		line-height: 24px;
+		width: 360px;
+}
 }
 @media (max-width: 320px) {
 	.program__chamomile {
