@@ -113,10 +113,10 @@
 	.footer__content {
 		display: flex;
 		flex-direction: column-reverse;
-		max-width: 380px;
+		max-width: 390px;
 	}
 	.footer__contact {
-		font-size: 40px;
+		font-size: 38px;
 		line-height: 62px;
 		margin-bottom: 10px;
 	}
@@ -126,7 +126,7 @@
 		align-items: flex-start;
 		font-size: 18px;
 		line-height: 33px;
-		margin-bottom: 130px;
+		margin-bottom: 70px;
 	}
 	.footer__bottom--title {
 		font-size: 11px;
