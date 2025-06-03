@@ -5,3 +5,13 @@
 	font-family: var(--font-family-Vetrino);
 	color: #506c46;
 }
+/* Адаптив */
+@media (max-width: 780px){
+
+}
+@media (max-width: 420px){
+
+}
+@media (max-width: 320px){
+
+}

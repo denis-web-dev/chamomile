@@ -88,3 +88,13 @@ form {
 
 	color: #e9e5c5;
 }
+/* Адаптив */
+@media (max-width: 780px){
+
+}
+@media (max-width: 420px){
+
+}
+@media (max-width: 320px){
+
+}

@@ -58,3 +58,60 @@
 
 	color: #506c46;
 }
+/* Адаптив */
+@media (max-width: 768px) {
+	.nutrition {
+		padding-top: 60px;
+		background-color: #e9e5c5;
+		padding-bottom: 60px;
+	}
+	.nutrition__img-twig {
+		position: absolute;
+		left: 480px;
+		top: 40px;
+		width: 100px;
+	}
+	.nutrition__content {
+		position: relative;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.nutrition__block-1 {
+		padding: 0 35px 10px 0;
+	}
+	.titles {
+		margin-bottom: 10px;
+	}
+	.nutrition__subtitle {
+		max-width: 480px;
+		font-size: 38px;
+	}
+	.nutrition__block-2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.nutrition__block-3 {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		flex-direction: column;
+	}
+	.nutrition__img-vector {
+		padding: 0;
+		width: 650px;
+	}
+	.nutrition__text {
+		font-size: 16px;
+		max-width: 480px;
+	}
+
+	.nutrition__img-2 {
+		padding: 20px 0;
+	}
+}
+@media (max-width: 420px) {
+}
+@media (max-width: 320px) {
+}

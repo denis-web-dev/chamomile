@@ -68,3 +68,13 @@
 	color: #e9e5c5;
 	margin-bottom: 60px;
 }
+/* Адаптив */
+@media (max-width: 780px){
+
+}
+@media (max-width: 420px){
+
+}
+@media (max-width: 320px){
+
+}
