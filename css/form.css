@@ -112,6 +112,7 @@ form {
 @media (max-width: 420px) {
 	.form {
 		padding: 40px 0;
+		min-height: 100vh;
 	}
 	.form__title {
 		font-size: 28px;
