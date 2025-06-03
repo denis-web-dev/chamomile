@@ -164,10 +164,9 @@
 		line-height: 16px;
 	}
 	.rference__chamomile {
-		position: fixed;
-		right: 20px;
+		position: static;
+		margin-top: -114px;
 		padding-left: 0;
-		bottom: 10vh;
 		max-width: 216px;
 	}
 	.rference__chamomile {
