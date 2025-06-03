@@ -139,7 +139,7 @@
 	}
 	.habitation__block-1 {
 		padding-right: 0px;
-		max-width: 390px;
+		max-width: 380px;
 	}
 	.titles {
 		font-family: var(--font-family-Arial);
@@ -163,8 +163,8 @@
 	}
 	.habitation__code-img {
 		position: absolute;
-		right: 0;
-		top: 73vh;
+		right: 35px;
+        top: 87vh;
 	}
 	.habitation__svg-ml {
 		position: absolute;
