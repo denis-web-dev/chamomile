@@ -164,13 +164,13 @@
 		line-height: 16px;
 	}
 	.rference__chamomile {
-			position: fixed;
-			right: 20px;
-			padding-left: 0;
-			bottom: 35px;
-			max-width: 216px;
+		position: fixed;
+		right: 20px;
+		padding-left: 0;
+		bottom: 10vh;
+		max-width: 216px;
 	}
-	.rference__chamomile{
+	.rference__chamomile {
 		clip-path: inset(52% 0 0 0);
 	}
 }
