@@ -1,6 +1,6 @@
 .ticket {
 	background-color: #e9e5c5;
-	padding-bottom: 100px;
+	padding: 100px 0;
 }
 .ticket__content {
 	display: flex;
@@ -15,7 +15,7 @@
 	text-transform: uppercase;
 
 	color: #506c46;
-	padding: 100px 0 46px 0;
+	padding: 0 0 46px 0;
 }
 .ticket__cheque {
 	position: relative;

@@ -63,7 +63,7 @@
 	line-height: 21px;
 	text-align: justify;
 	color: #506c46;
-	margin-top: 520px;
+	margin-top: 530px;
 	padding-left: 250px;
 	max-width: 580px;
 	z-index: 1;
@@ -110,6 +110,7 @@
 	}
 	.project__bg-1--title {
 		font-size: 70px;
+		padding-top: 30px;
 	}
 	.project__bg-1--text-2 {
 		padding-left: 450px;
@@ -124,7 +125,7 @@
 	}
 	.project__bg-1--block-text {
 		font-size: 20px;
-		margin-top: 681px;
+		margin-top: 560px;
 		padding-left: 250px;
 		max-width: 686px;
 	}

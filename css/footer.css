@@ -1,5 +1,15 @@
 .footer {
+	position: relative;
 	margin-top: 60px;
+}
+.footer::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%) translateY(-60px);
+	width: 90%;
+	border-top: 1px solid #e9e5c5;
 }
 
 .footer-menu__list {
@@ -30,7 +40,7 @@
 	line-height: 106px;
 	text-align: left;
 	text-transform: uppercase;
-
+margin-bottom: 212px;
 	color: #e9e5c5;
 }
 .footer__bottom {
@@ -195,10 +205,10 @@
 		bottom: 83px;
 		left: 188px;
 		rotate: 25deg;
-}
-.footer__bottom--petals::after {
-	bottom: 46px;
-	left: 9px;
-	rotate: -45deg;
-}
+	}
+	.footer__bottom--petals::after {
+		bottom: 46px;
+		left: 9px;
+		rotate: -45deg;
+	}
 }

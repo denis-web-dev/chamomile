@@ -94,16 +94,7 @@
 	border-left: 1px solid var(--color-stroke-strong);
 	border-right: 1px solid var(--color-stroke-strong);
 }
-.hero-title::before {
-	content: '';
-	position: absolute;
-	width: var(--central-box-size);
-	z-index: 9999;
-	min-height: 100%;
-	left: var(--central-box-position);
-	border-left: 1px solid var(--color-stroke-strong);
-	border-right: 1px solid var(--color-stroke-thin);
-}
+
 
 .header-title {
 	position: relative;
