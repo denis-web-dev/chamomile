@@ -115,6 +115,12 @@
 	.nutrition__img-twig {
 		left: 300px;
 	}
+	.nutrition__content {
+		align-items: flex-start;
+}
+.nutrition__subtitle{
+	max-width: 280px;
+}
 }
 @media (max-width: 320px) {
 	.nutrition {

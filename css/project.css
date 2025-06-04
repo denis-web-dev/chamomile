@@ -171,7 +171,7 @@
 		flex-direction: column;
 	}
 	.img__bg-2-1 {
-		max-height: 60vh;
+		max-width: 250px;
 	}
 	.img__bg-1 {
 		min-height: 563px;
@@ -185,11 +185,12 @@
 		line-height: 30px;
 	}
 	.project__bg-1--block-text {
-		font-size: 16px;
-		margin-top: 309px;
-		padding-left: 120px;
-		max-width: 370px;
-		line-height: 17px;
+		font-size: 14px;
+		margin-top: 335px;
+		padding-left: 80px;
+		max-width: 325px;
+		line-height: 16px;
+		gap: 10px;
 	}
 	.project__bg-1--text-1 {
 		padding-left: 30px;
@@ -205,7 +206,7 @@
 	.project__bg-1--text-4 {
 		font-size: 20px;
 		padding-left: 316px;
-		margin-top: 148px;
+		margin-top: 89px;
 	}
 }
 

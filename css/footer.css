@@ -169,6 +169,7 @@ margin-bottom: 212px;
 		display: none;
 	}
 	.footer__petals--320 {
+		display: block;
 		width: 380px;
 	}
 }

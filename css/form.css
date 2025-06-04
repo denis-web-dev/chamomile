@@ -76,7 +76,7 @@ form {
 	overflow: hidden;
 }
 
-.form__btn{
+.form__btn {
 	transition: all 0.2s linear 0s;
 
 	&:before {
@@ -142,8 +142,11 @@ form {
 }
 @media (max-width: 420px) {
 	.form {
+		display: flex;
 		padding: 40px 0;
 		min-height: 100vh;
+		flex-direction: column;
+		justify-content: center;
 	}
 	.form__title {
 		font-size: 28px;

@@ -218,6 +218,11 @@ sup {
 		rotate: 90deg;
 		max-height: 33vh;
 	}
+	.ticket__cheque-bg-2 {
+		margin-top: 5px;
+		rotate: 90deg;
+		max-height: 259px;
+	}
 	.ticket__cheque-img {
 		display: none;
 	}
@@ -295,23 +300,23 @@ sup {
 	.ticket__cheque-img--quarkod {
 		display: block;
 		rotate: 90deg;
-		max-width: 50px;
-		margin: 0 0 32px 0;
+		max-width: 56px;
+		margin: 0 0px 55px 0;
 		padding: 0;
 	}
 	.ticket__chamomile {
 		position: absolute;
-		top: 254px;
-		margin-right: 160px;
+		top: 334px;
+		margin-right: 200px;
 		z-index: 5;
-		max-width: 27px;
+		max-width: 33px;
 	}
 	.ticket__chamomile-2 {
 		position: absolute;
-		bottom: 51px;
-		right: 54px;
+		bottom: 74px;
+		right: 75px;
 		z-index: 5;
-		max-width: 27px;
+		max-width: 33px;
 	}
 	.festival-link {
 		position: relative;
