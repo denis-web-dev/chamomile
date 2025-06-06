@@ -137,7 +137,7 @@
 }
 @media (max-width: 768px) {
 	.img__bg-2-1 {
-		max-height: 35vh;
+		max-width: 270px;
 	}
 	.project__bg-1--title {
 		font-size: 36px;

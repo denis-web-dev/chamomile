@@ -204,7 +204,7 @@ sup {
 @media (max-width: 420px) {
 	.ticket__title {
 		font-size: 29px;
-		padding: 10px 0 50px 0;
+		margin: 10px 0 50px 0;
 	}
 	.ticket__cheque {
 		position: relative;
@@ -216,7 +216,7 @@ sup {
 	}
 	.ticket__cheque-bg {
 		rotate: 90deg;
-		max-height: 33vh;
+		max-width: 390px;
 	}
 	.ticket__cheque-bg-2 {
 		margin-top: 5px;
@@ -229,9 +229,9 @@ sup {
 	.ticket__cheque-img--320 {
 		position: absolute;
 		display: block;
-		top: -36px;
-		left: 39px;
-		width: 260px;
+		top: -40px;
+		left: 71px;
+		width: 290px;
 	}
 	.ticket__cheque-l {
 		position: relative;
@@ -244,9 +244,9 @@ sup {
 	}
 	.ticket__cheque-l--text {
 		position: absolute;
-		width: 134px;
-		top: 0;
-		right: 404px;
+		width: 145px;
+		top: 40px;
+		right: 450px;
 		z-index: 1;
 	}
 	.ticket__cheque-l--title {
@@ -260,7 +260,7 @@ sup {
 	.ticket__cheque-l--subtitle {
 		position: absolute;
 		font-size: 12px;
-		line-height: 15px;
+		line-height: 16px;
 		text-transform: uppercase;
 		margin-top: 130px;
 		width: 173px;
