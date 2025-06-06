@@ -138,6 +138,19 @@
 		top: -9px;
 		max-width: 40px;
 	}
+	.project__bg-1--title {
+		flex-direction: row;
+		font-size: 34px;
+		line-height: 30px;
+}
+	.project__bg-1--text-1 {
+		padding-left: 0px;
+	}
+	.project__bg-1--text-4 {
+		font-size: 25px;
+		padding-left: 328px;
+		margin-top: 89px;
+}
 	.habitation__block-1 {
 		padding-right: 0px;
 		max-width: 410px;
@@ -165,7 +178,7 @@
 	}
 	.habitation__code-img {
 		right: 25px;
-		top: 705px;
+		top: 666px;
 	}
 	.habitation__svg-ml {
 		position: absolute;
