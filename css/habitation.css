@@ -124,8 +124,7 @@
 }
 @media (max-width: 420px) {
 	.habitation {
-		padding-top: 50px;
-		padding-bottom: 60px;
+		padding: 70px 0;
 	}
 	.habitation__content {
 		position: relative;
@@ -138,19 +137,6 @@
 		top: -9px;
 		max-width: 40px;
 	}
-	.project__bg-1--title {
-		flex-direction: row;
-		font-size: 34px;
-		line-height: 30px;
-}
-	.project__bg-1--text-1 {
-		padding-left: 0px;
-	}
-	.project__bg-1--text-4 {
-		font-size: 25px;
-		padding-left: 328px;
-		margin-top: 89px;
-}
 	.habitation__block-1 {
 		padding-right: 0px;
 		max-width: 410px;
@@ -177,33 +163,34 @@
 		align-items: center;
 	}
 	.habitation__code-img {
-		right: 25px;
-		top: 666px;
+		right: 6px;
+		top: 491px;
+		width: 25px;
 	}
 	.habitation__svg-ml {
 		position: absolute;
-		top: 219px;
+		top: 305px;
 		display: flex;
-		right: 138px;
+		right: 160px;
 		max-width: 40px;
 	}
 
 	.habitation__img-1 {
-		max-width: 250px;
+		max-width: 351px;
 	}
 	.habitation__img-2 {
 		position: initial;
 		right: 80px;
 		bottom: -218px;
-		max-width: 200px;
-		max-height: 200px;
+		max-width: 300px;
+		max-height: 300px;
 		margin-right: 20px;
 	}
 	.habitation__text {
 		font-size: 16px;
-		max-width: 321px;
+		max-width: 350px;
 		margin-right: 0px;
-		margin-bottom: 20px;
+		margin-bottom: 42px;
 		padding: 77px 0 0 0;
 	}
 }
