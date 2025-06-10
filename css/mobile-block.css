@@ -1,5 +1,6 @@
 .mobile-block {
 	display: none;
+	z-index: 1000;
 }
 
 .mobile-block__social {
@@ -38,7 +39,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		transition: opacity 0.5s ease, max-height 0.5s ease;
+		transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
 	}
 	.mobile-block.active {
 		opacity: 1;

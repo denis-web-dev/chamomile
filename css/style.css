@@ -30,6 +30,12 @@ body {
 	color: #fff;
 	background: var(--colorBg-primary);
 }
+body.no-scroll {
+	overflow: hidden; /* Блокируем прокрутку */
+	height: 100vh; /* Фиксируем высоту */
+	position: fixed; /* Предотвращаем "прыжки" контента */
+	width: 100%; /* Убеждаемся, что ширина фиксирована */
+}
 
 img,
 svg {
