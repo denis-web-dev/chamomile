@@ -536,5 +536,6 @@
 	.festival-link {
 		font-size: 18px;
 		margin-top: 23px;
+		max-width: 280px;
 	}
 }

@@ -144,7 +144,10 @@
 	}
 	.nutrition__img-2 {
 		padding: 20px 0;
-		width: 224px;
+		width: 293px;
+	}
+	.nutrition__img-3{
+		display: none;
 	}
 	.nutrition__block-2 {
 		margin-bottom: 20px;

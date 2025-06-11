@@ -85,7 +85,7 @@
 	position: absolute;
 	z-index: 1;
 }
-.img__bg-1-mob{
+.img__bg-1-mob {
 	display: none;
 }
 @media (max-width: 1920px) {
@@ -143,27 +143,31 @@
 	.project__bg-1--title {
 		font-size: 36px;
 		line-height: 30px;
+		padding: 0;
 	}
 	.project__bg-1--block-text {
-		font-size: 16px;
-		margin-top: 527px;
-		padding-left: 131px;
-		max-width: 370px;
+		font-size: 14px;
+		line-height: 19px;
+		margin-top: 258px;
+		padding-left: 77px;
+		max-width: 350px;
 	}
 	.project__bg-1--text-1 {
 		padding-left: 30px;
+		margin-top: 30px;
 	}
 	.project__bg-1--text-2 {
-		padding-left: 228px;
+		padding-left: 155px;
+		padding-top: 24px;
 	}
 	.project__bg-1--text-3 {
-		margin-top: 44px;
+		margin-top: 26px;
 		padding-left: 160px;
 	}
 	.project__bg-1--text-4 {
 		font-size: 20px;
 		padding-left: 316px;
-		margin-top: 148px;
+		margin-top: 111px;
 	}
 }
 @media (max-width: 420px) {
@@ -177,7 +181,7 @@
 	.img__bg-1 {
 		display: none;
 	}
-	.img__bg-1-mob{
+	.img__bg-1-mob {
 		display: block;
 	}
 	.img__bg-2 {
@@ -202,7 +206,7 @@
 		margin-top: 30px;
 	}
 	.project__bg-1--text-2 {
-		margin-top: -39px;
+		margin-top: -64px;
 		padding-left: 170px;
 	}
 	.project__bg-1--text-3 {
@@ -222,7 +226,7 @@
 		flex-direction: column;
 	}
 	.img__bg-2-1 {
-		max-height: 35vh;
+		max-width: 220px;
 	}
 	.img__bg-2 {
 		min-height: 400px;
@@ -241,30 +245,29 @@
 	}
 	.project__bg-1--block-text {
 		font-size: 14px;
-		margin-top: 255px;
+		margin-top: 200px;
 		padding-left: 20px;
-		max-width: 275px;
+		max-width: 280px;
 		line-height: 17px;
 		gap: 10px;
 	}
 	.project__bg-1--text1 {
-		display: none;
 	}
 	.project__bg-1--text-1 {
 		margin-top: 30px;
 		padding-left: 20px;
 	}
 	.project__bg-1--text-2 {
-		margin-top: 30px;
-		padding-left: 10px;
+		margin-top: -19px;
+		padding-left: 121px;
 	}
 	.project__bg-1--text-3 {
-		margin-top: 20px;
-		padding-left: 155px;
+		margin-top: 10px;
+		padding-left: 125px;
 	}
 	.project__bg-1--text-4 {
 		font-size: 20px;
-		padding-left: 277px;
-		margin-top: 55px;
+		padding-left: 245px;
+		margin-top: 80px;
 	}
 }

@@ -157,14 +157,14 @@ margin-bottom: 212px;
 		margin-bottom: 20px;
 	}
 	.footer__bottom--petals::after {
-		bottom: 58px;
-		left: 77px;
+		bottom: 53px;
+		left: 69px;
 		rotate: -45deg;
 	}
 	.footer__bottom--petals::before {
-		bottom: 88px;
-		left: 201px;
-	}
+		bottom: 82px;
+		left: 184px;
+}
 	.footer__petals {
 		display: none;
 	}
