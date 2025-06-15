@@ -45,6 +45,8 @@ accordionItems.forEach(item => {
   });
 });
 
+
+
 if (icons.length && mobileBlock) {
   icons.forEach(icon => {
     icon.addEventListener('click', (event) => {
