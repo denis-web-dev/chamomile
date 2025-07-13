@@ -119,6 +119,9 @@
 
 	color: #e9e5c5;
 }
+.agreement-text{
+	text-decoration: underline;
+}
 /* Адаптив */
 @media (max-width: 768px) {
 	.form {
@@ -225,4 +228,5 @@
 	font-size: 14px;
 	line-height: 17px;
 }
+
 }

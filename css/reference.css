@@ -41,6 +41,7 @@
 	top: 40px;
 	right: 28px;
 	transition: background-image 0.3s;
+	cursor: pointer;
 }
 .reference__question.open::after {
 	background: url(../img/minus.png) no-repeat center/cover;

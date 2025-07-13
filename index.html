@@ -116,13 +116,6 @@
           </li>
         </ul>
       </nav>
-      <svg style="display: none;">
-        <symbol id="scroll-arrow" viewBox="0 0 14 48">
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M7.00003 47.5C6.80112 47.5 6.61035 47.421 6.4697 47.2803C6.32905 47.1397 6.25003 46.9489 6.25003 46.75L6.25003 3.0605L1.53103 7.781C1.3902 7.92183 1.1992 8.00094 1.00003 8.00094C0.80087 8.00094 0.609863 7.92183 0.469033 7.781C0.328203 7.64017 0.249086 7.44916 0.249086 7.25C0.249086 7.05083 0.328203 6.85983 0.469033 6.719L6.46903 0.719001C6.5387 0.649158 6.62147 0.593742 6.71258 0.55593C6.8037 0.518119 6.90138 0.498657 7.00003 0.498657C7.09868 0.498657 7.19637 0.518119 7.28748 0.555931C7.3786 0.593742 7.46137 0.649158 7.53103 0.719001L13.531 6.719C13.6719 6.85983 13.751 7.05083 13.751 7.25C13.751 7.44917 13.6719 7.64017 13.531 7.781C13.3902 7.92183 13.1992 8.00095 13 8.00095C12.8009 8.00095 12.6099 7.92183 12.469 7.781L7.75003 3.0605L7.75003 46.75C7.75003 46.9489 7.67101 47.1397 7.53036 47.2803C7.38971 47.421 7.19894 47.5 7.00003 47.5Z"
-            fill="#E7D000" />
-        </symbol>
-      </svg>
 
       <div class="hero-title">
         <div class="header-title">
@@ -204,6 +197,7 @@
 
         <div class="project__slider">
           <div class="project__slider--block project__slider-1">
+
             <div class="project__bg project__bg-1">
               <div class="project__bg--title project__bg-1--title">
                 <p class="project__bg--text-1 project__bg-1--text-1">ПРОЕКТ</p>
@@ -211,7 +205,6 @@
                 <p class="project__bg--text-3 project__bg-1--text-3">ТРАВАХ</p>
                 <p class="project__bg--text-4 project__bg-1--text-4">1</p>
               </div>
-
               <div class="project__bg--block-text">
                 <p class="project__bg-1--text">
                   1  Наши предки ежедневно использовали знания о травах и применяли их в повседневной жизни. Для нас
@@ -225,12 +218,14 @@
               <img class="img__bg-1" src="./img/project/project-bg_1.jpg" alt="bg-1">
               <img class="img__bg-1 img__bg-1-mob" src="./img/project/project-bg_1-mob.jpg" alt="bg-1">
             </div>
+
             <div class="project__bg-2">
-              <img class="img__bg-2-1" src="./img/project/project-1.jpg" alt="лицо">
+              <img class="img__bg-2-1 slide active" src="./img/project/project-1.jpg" alt="лицо">
               <img class="img__bg-2" src="./img/project/project-bg_2.jpg" alt="bg-2">
             </div>
+
           </div>
-          <div class="project__slider--block project__slider-2">
+          <!-- <div class="project__slider--block project__slider-2">
             <div class="project__bg project__bg--2">
               <div class="project__bg--title project__bg-2--title">
                 <p class="project__bg--text-1 project__bg-2--text-1">ПРОЕКТ</p>
@@ -280,7 +275,7 @@
               <img class="img__bg-2-1" src="./img/project/project-3.jpg" alt="лицо">
               <img class="img__bg-2" src="./img/project/project-bg_6.jpg" alt="bg-4">
             </div>
-          </div>
+          </div> -->
         </div>
 
       </div>
@@ -536,8 +531,11 @@
               <div class="button">
                 <button class="form__btn">отправить</button>
               </div>
-              <p class="agreement">Нажимая кнопку, вы соглашаетесь с <u>условиями использования</u> и <u>политикой
-                  конфиденциальности</u></p>
+              <p class="agreement">Нажимая кнопку, вы соглашаетесь с <a class="agreement-text" href="#" target="_blank"
+                  rel="noopener" aria-describedby>условиями
+                  использования</a> и <a class="agreement-text" href="#" target="_blank" rel="noopener"
+                  aria-describedby>политикой
+                  конфиденциальности</a></p>
             </form>
           </div>
         </div>
@@ -642,7 +640,8 @@
             </li>
           </ul>
         </nav>
-        <h1 class="footer__contact">+7(917) 654-32-10</h1>
+        <a class="footer__contact" href="tel:+7(917) 654-32-10">+7(917) 654-32-10</a>
+
       </div>
       <div class="footer__bottom">
         <p class="footer__bottom--title">«РОМАШКА», 2025</p>
@@ -654,7 +653,11 @@
     </div>
   </footer>
 
+
+
   <script src="./js/main.js"></script>
+
+
 </body>
 
 </html>
