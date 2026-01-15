@@ -4,6 +4,7 @@
 
 .project__slider--block {
 	display: flex;
+	justify-content: center;
 }
 .project__bg {
 	display: flex;
