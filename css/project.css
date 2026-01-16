@@ -108,9 +108,6 @@
 
 .slide {
 	position: absolute;
-	width: 350px;
-	height: 600px;
-
 	object-fit: cover;
 	opacity: 0;
 	transform: rotateZ(0deg) scale(1);
